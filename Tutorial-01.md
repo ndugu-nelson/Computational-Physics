@@ -1,4 +1,13 @@
-# 1. What is Computational Physics?
+# 1. Computational Physics
+<p style="border-top: 1px dotted black; margin-top: 20px;"></p>
+## Learning Goals
+The primary goal of this section is to understand the scope, significance, and foundational knowledge of computational physics. By the end of this section, you should be able to:
+
+1. Define computational physics and explain its integration of physics, computer science, and mathematics.
+2. Recognize the evolution of computational physics from its early applications to its current scope.
+3. Identify the importance of computational physics in solving complex problems and its interdisciplinary applications.
+4. Understand the essential background knowledge required to excel in computational physics.
+<p style="border-top: 1px dotted black; margin-top: 20px;"></p>
 
 Computational physics is a field that merges physics with computational techniques to solve complex problems that are challenging to address analytically. It integrates concepts from physics, computer science, and mathematics to provide powerful solutions and insights. 
 <p align="right">
