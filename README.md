@@ -33,9 +33,10 @@ Detailed instructions on how to use the various tools and scripts in this reposi
 
 ## Projects
 This section showcases some of the projects that are part of this repository:
-1. Project Title: A brief description of what the project does.
-2. Project Title: Another brief description.
-For more details, visit the individual project folders.
+1. Global Climate Model (GCM) Simplified Simulation
+Description: In this project, students will create a simplified version of a Global Climate Model (GCM). They will simulate basic components of Earth's climate system, such as radiation balance, atmospheric circulation, and ocean currents. This project will introduce students to the complexities of climate modeling and the importance of computational methods in predicting climate change.
+2. Modeling the Greenhouse Effect
+Description: In this project, students will simulate the greenhouse effect by modeling how different gases in the atmosphere trap heat. They will explore how varying concentrations of greenhouse gases affect Earth’s temperature and contribute to global warming.
 
 ## Contributing
 Contributions are welcome! If you have suggestions for new simulations, algorithms, or tutorials, feel free to open an issue or submit a pull request. Please see the CONTRIBUTING.md file for more details.
