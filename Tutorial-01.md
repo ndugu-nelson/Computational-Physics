@@ -1,7 +1,9 @@
 # 1. What is Computational Physics?
 
 Computational physics is a field that merges physics with computational techniques to solve complex problems that are challenging to address analytically. It integrates concepts from physics, computer science, and mathematics to provide powerful solutions and insights. 
-<img src="./Computational_physics_diagram.png" alt="Flowchart of the Computational Process" width="50%" />
+<p align="right">
+  <img src="./Computational_physics_diagram.png" alt="Flowchart of the Computational Process" width="50%" />
+</p>
 
 
 ## 1.1 The Evolution of Computational Physics
