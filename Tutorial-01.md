@@ -81,7 +81,5 @@ Expand your knowledge and skills with the following resources:
 3. **Writing with LaTeX**  
    Master the art of scientific writing using LaTeX with this helpful resource: [LaTeX for Scientific Writing](https://www.linkedin.com/posts/nelson-ndugu_reportwriting-academictips-researchstructure-activity-7231891805506617344-V8Sv?utm_source=share&utm_medium=member_desktop)
 
-<hr style="border: none; border-top: 1px dotted black; margin: 20px 0;" />
-
 
 
