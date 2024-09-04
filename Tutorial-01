@@ -2,7 +2,7 @@
 Computational physics is the implementation of numerical analysis
 to solve problems in physics. It requires integration of Physics with Computer Science
 Mathemathics. 
-![Flowchart of the Computational Process](images/Computational_physics_diagram)
+![Flowchart of the Computational Process](./computational_physics_diagram.png)
 
 
 - The first application of modern computers in science was via computational physics.
