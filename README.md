@@ -31,11 +31,10 @@ To get started with the resources in this repository, follow the instructions be
 ## Usage
 Detailed instructions on how to use the various tools and scripts in this repository are provided in the individual folders.
 
-##Projects
+## Projects
 This section showcases some of the projects that are part of this repository:
-
-Project Title: A brief description of what the project does.
-Project Title: Another brief description.
+1. Project Title: A brief description of what the project does.
+2. Project Title: Another brief description.
 For more details, visit the individual project folders.
 
 ## Contributing
