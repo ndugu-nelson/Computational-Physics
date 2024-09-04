@@ -1,24 +1,55 @@
-## What is Computational Physics?
+# 1. What is Computational Physics?
 
-Computational physics is an exciting and dynamic field that combines the principles of physics with advanced computational techniques. By leveraging numerical analysis, this discipline enables us to tackle complex problems that are difficult or impossible to solve analytically. It’s a fascinating intersection of physics, computer science, and mathematics.
-
+Computational physics is a field that merges physics with computational techniques to solve complex problems that are challenging to address analytically. It integrates concepts from physics, computer science, and mathematics to provide powerful solutions and insights. 
 ![Flowchart of the Computational Process](./Computational_physics_diagram.png)
 
-### Why Computational Physics Matters
 
-The advent of modern computers revolutionized the way we approach scientific problems. Computational physics was one of the first areas to benefit from this technological advancement. Initially, it was primarily used for simulations and modeling, but today, it has evolved into a fundamental component of computational sciences.
+## 1.1 The Evolution of Computational Physics
 
-While computational physics still plays a crucial role in developing computer simulations of physical systems, its applications extend far beyond that. From understanding intricate physical phenomena to solving real-world problems, computational physics is a powerful tool in the scientific arsenal.
+### 1.1.1 Early Applications
 
-### Essential Background Knowledge
+Modern computers revolutionized scientific research, and computational physics was one of the first areas to benefit from this advancement. Initially, it focused on simulations and modeling, allowing scientists to explore physical systems in ways that were previously impossible.
 
-To effectively engage with computational physics, you'll need a solid foundation in several key areas:
+### 1.1.2 Current Scope
 
-- **Root Finding:** Techniques like the Newton-Raphson Method are used to find solutions to equations that cannot be solved algebraically. This is essential for solving non-linear problems.
-- **Systems of Linear Equations:** Methods such as LU Decomposition help in solving systems of linear equations, which is fundamental in many computational problems.
-- **Ordinary Differential Equations (ODEs):** Techniques like Runge-Kutta Methods are used to solve ODEs, which describe how physical quantities change over time.
-- **Integration:** Methods like Monte Carlo Integration are employed to approximate the value of integrals, which is crucial for dealing with complex systems.
-- **Partial Differential Equations (PDEs):** The Finite Difference Method is one approach used to solve PDEs, which are key in modeling phenomena that vary over space and time.
-- **Matrix Manipulation:** Efficient manipulation of matrices is vital for many numerical methods and simulations.
+Today, computational physics has evolved significantly. It is a core component of computational sciences, extending beyond simulations to address a wide range of scientific and practical problems. Its applications now span various domains, from fundamental research to real-world problem-solving.
 
-In summary, computational physics is a vibrant and essential field that uses computational power to explore and solve a wide range of physical problems. Whether you're simulating complex systems or tackling theoretical challenges, the skills and techniques from computational physics are invaluable.
+## 1.2 Why Computational Physics is Important
+
+Computational physics provides essential tools for understanding and predicting complex physical phenomena. It supports:
+
+- **Detailed Simulations:** Creating models of physical systems to predict behavior and test theories.
+- **Problem Solving:** Addressing problems that are analytically intractable or too complex for traditional methods.
+- **Interdisciplinary Applications:** Contributing to fields such as materials science, astrophysics, and climate modeling.
+
+## 1.3 Essential Background Knowledge
+
+To excel in computational physics, familiarity with several key areas is crucial:
+
+### 1 Root Finding
+
+- **Newton-Raphson Method:** A numerical technique used to find approximate solutions to equations that cannot be solved exactly. It’s fundamental for solving non-linear problems.
+
+### 2 Systems of Linear Equations
+
+- **LU Decomposition:** A method for solving systems of linear equations by decomposing a matrix into lower and upper triangular matrices, simplifying the solution process.
+
+### 3 Ordinary Differential Equations (ODEs)
+
+- **Runge-Kutta Methods:** A family of algorithms used to solve ODEs, which describe how physical quantities change over time. These methods are essential for modeling dynamic systems.
+
+### 4 Integration
+
+- **Monte Carlo Integration:** A statistical technique used to approximate the value of integrals. It’s particularly useful for handling complex systems where analytical solutions are difficult.
+
+### 5 Partial Differential Equations (PDEs)
+
+- **Finite Difference Method:** A numerical approach for solving PDEs, which are used to model phenomena that vary over both space and time. This method is crucial for simulations involving physical processes.
+
+### 6 Matrix Manipulation
+
+- **Matrix Operations:** Efficient manipulation and computation involving matrices are fundamental for various numerical methods and simulations.
+
+## 1.4 Conclusion
+
+Computational physics is a dynamic and essential field that harnesses computational power to solve a wide array of physical problems. Its ability to simulate complex systems and address challenging scientific questions makes it a vital tool in modern science and engineering.
