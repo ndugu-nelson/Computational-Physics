@@ -7,8 +7,9 @@ The primary goal of this section is to understand the scope, significance, and f
 2. Recognize the evolution of computational physics from its early applications to its current scope.
 3. Identify the importance of computational physics in solving complex problems and its interdisciplinary applications.
 4. Understand the essential background knowledge required to excel in computational physics.
-<p style="border-top: 1px dotted black; margin-top: 20px;"></p>
-
+<!-- Two horizontal dotted lines -->
+<hr style="border: none; border-top: 1px dotted black; margin: 20px 0;" />
+<hr style="border: none; border-top: 1px dotted black; margin: 20px 0;" />
 Computational physics is a field that merges physics with computational techniques to solve complex problems that are challenging to address analytically. It integrates concepts from physics, computer science, and mathematics to provide powerful solutions and insights. 
 <p align="right">
   <img src="./Computational_physics_diagram.png" alt="Flowchart of the Computational Process" width="50%" />
