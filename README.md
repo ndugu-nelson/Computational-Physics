@@ -7,6 +7,7 @@ Welcome to the **Computational Physics** repository! This repository is a compre
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Tutorials](#tutorials)
 - [Projects](#projects)
 - [Contributing](#contributing)
 - [License](#license)
