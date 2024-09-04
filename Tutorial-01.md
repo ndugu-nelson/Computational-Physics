@@ -1,6 +1,7 @@
 # 1. Computational Physics
+
+**Learning Goals**
 <hr style="border: none; border-top: 1px dotted black; margin: 20px 0;" />
-## Learning Goals
 The primary goal of this section is to understand the scope, significance, and foundational knowledge of computational physics. By the end of this section, you should be able to:
 
 1. Define computational physics and explain its integration of physics, computer science, and mathematics.
