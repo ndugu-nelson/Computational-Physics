@@ -32,6 +32,13 @@ To get started with the resources in this repository, follow the instructions be
 ## Usage
 Detailed instructions on how to use the various tools and scripts in this repository are provided in the individual folders.
 
+## Tutorials
+This section provides a collection of essential tutorials for learning computational physics. We place special emphasis on integrating citizen science as a method for ground-truthing computational models, offering practical guidance on how to implement this approach effectively.
+
+Additionally, you will find detailed, step-by-step instructions for conducting computational science projects, ensuring you gain hands-on experience with the tools and techniques discussed.
+
+Recognizing that the quality of your scientific work is often reflected in your writing, we also include a dedicated tutorial on scientific writing with LaTeX. This session will help you master the art of clear, precise, and professional scientific communication.
+
 ## Projects
 This section showcases some of the projects that are part of this repository:
 1. Global Climate Model (GCM) Simplified Simulation
