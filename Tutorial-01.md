@@ -28,27 +28,27 @@ Computational physics provides essential tools for understanding and predicting 
 
 To excel in computational physics, familiarity with several key areas is crucial:
 
-### 1 Root Finding
+1 **Root Finding
 
 - **Newton-Raphson Method:** A numerical technique used to find approximate solutions to equations that cannot be solved exactly. It’s fundamental for solving non-linear problems.
 
-### 2 Systems of Linear Equations
+2 **Systems of Linear Equations
 
 - **LU Decomposition:** A method for solving systems of linear equations by decomposing a matrix into lower and upper triangular matrices, simplifying the solution process.
 
-### 3 Ordinary Differential Equations (ODEs)
+3 **Ordinary Differential Equations (ODEs)
 
 - **Runge-Kutta Methods:** A family of algorithms used to solve ODEs, which describe how physical quantities change over time. These methods are essential for modeling dynamic systems.
 
-### 4 Integration
+4 **Integration
 
 - **Monte Carlo Integration:** A statistical technique used to approximate the value of integrals. It’s particularly useful for handling complex systems where analytical solutions are difficult.
 
-### 5 Partial Differential Equations (PDEs)
+5 **Partial Differential Equations (PDEs)
 
 - **Finite Difference Method:** A numerical approach for solving PDEs, which are used to model phenomena that vary over both space and time. This method is crucial for simulations involving physical processes.
 
-### 6 Matrix Manipulation
+6 **Matrix Manipulation
 
 - **Matrix Operations:** Efficient manipulation and computation involving matrices are fundamental for various numerical methods and simulations.
 
