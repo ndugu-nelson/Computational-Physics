@@ -65,3 +65,23 @@ To excel in computational physics, familiarity with several key areas is crucial
 ## 1.4 Conclusion
 
 Computational physics is a dynamic and essential field that harnesses computational power to solve a wide array of physical problems. Its ability to simulate complex systems and address challenging scientific questions makes it a vital tool in modern science and engineering.
+
+**Extra Learning**
+
+<hr style="border: none; border-top: 1px dotted black; margin: 20px 0;" />
+
+Expand your knowledge and skills with the following resources:
+
+1. **Citizen Science and Computational Models**  
+   Discover the art of citizen science and how to apply it to computational models. Check out this insightful post: [Citizen Science in Computational Physics](https://www.linkedin.com/posts/nelson-ndugu_citizenscience-computationalphysics-stemeducation-activity-7231283071222714368-YP7U?utm_source=share&utm_medium=member_desktop)
+
+2. **Scientific Writing Techniques**  
+   Learn the essentials of scientific writing to effectively communicate your research. Explore this comprehensive guide: [Scientific Writing Tips](https://www.linkedin.com/posts/nelson-ndugu_reportwriting-academictips-researchstructure-activity-7231891805506617344-V8Sv?utm_source=share&utm_medium=member_desktop)
+
+3. **Writing with LaTeX**  
+   Master the art of scientific writing using LaTeX with this helpful resource: [LaTeX for Scientific Writing](https://www.linkedin.com/posts/nelson-ndugu_reportwriting-academictips-researchstructure-activity-7231891805506617344-V8Sv?utm_source=share&utm_medium=member_desktop)
+
+<hr style="border: none; border-top: 1px dotted black; margin: 20px 0;" />
+
+
+
