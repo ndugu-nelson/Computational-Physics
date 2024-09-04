@@ -1,2 +1,29 @@
-# Computational-Physics
-A collection of computational physics resources, simulations, and scripts designed for teaching and research purposes. This repository includes code implementations, tutorials, and project examples to facilitate learning and application of computational techniques in physics.
+# Computational Physics
+
+Welcome to the **Computational Physics** repository! This repository is a comprehensive resource designed to support both teaching and research in computational physics. It contains a variety of scripts, simulations, and educational materials aimed at helping students and researchers apply computational techniques to solve physics problems.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Projects](#projects)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Introduction
+Computational physics is an essential tool for solving complex physical problems where analytical solutions are difficult or impossible to obtain. This repository provides various computational tools and examples, ranging from basic simulations to more advanced topics, to aid in understanding and solving physics problems.
+
+## Features
+- **Simulations:** Interactive simulations demonstrating key concepts in physics.
+- **Algorithms:** Implementations of numerical methods used in computational physics, such as Monte Carlo simulations, finite element methods, and more.
+- **Tutorials:** Step-by-step tutorials to guide learners through the fundamentals of computational physics.
+- **Projects:** Sample projects showcasing the application of computational techniques to real-world physics problems.
+
+## Installation
+To get started with the resources in this repository, follow the instructions below:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ndugu-nelson/Computational-Physics.git
