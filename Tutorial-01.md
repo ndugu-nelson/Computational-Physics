@@ -11,9 +11,12 @@ The primary goal of this section is to understand the scope, significance, and f
 <!-- horizontal dotted line -->
 <hr style="border: none; border-top: 1px dotted black; margin: 20px 0;" />
 Computational physics is a field that merges physics with computational techniques to solve complex problems that are challenging to address analytically. It integrates concepts from physics, computer science, and mathematics to provide powerful solutions and insights. 
-<p align="right">
+
+<figure style="text-align: right;">
   <img src="./Computational_physics_diagram.png" alt="Flowchart of the Computational Process" width="50%" />
-</p>
+  <figcaption style="text-align: center;">Fig.1: The transidisplinary aspect of Computational Physics</figcaption>
+</figure>
+
 
 
 ## 1.1 The Evolution of Computational Physics
