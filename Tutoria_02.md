@@ -23,24 +23,24 @@ Create a directory structure for a hypothetical physics project. Include directo
 
 3. File Management and Permissions
 
-**Check Permissions:** Use `ls -l` to view file permissions.
+- **Check Permissions:** Use `ls -l` to view file permissions.
 
 `ls -l experiment1.txt`
 
-Change Permissions: Use chmod to modify permissions.
+- **Change Permissions:** Use `chmod` to modify permissions.
 
-chmod 644 experiment1.txt  # Read/write for owner, read-only for others
+`chmod 644 experiment1.txt  # Read/write for owner, read-only for others`
 
-Change Ownership: Use chown to change file ownership.
+- *Change Ownership:* Use chown to change file ownership.
 
-sudo chown yourusername:yourusername experiment1.txt
+`sudo chown yourusername:yourusername experiment1.txt`
 
-Hands-On Exercise:
+**Hands-On Exercise:**
 
 Change the permissions of a file so that only the owner can write to it, and verify the changes. Try changing ownership and check if you can access the file.
 
 
-Linux File System
+## Linux File System
 
 
 
@@ -99,113 +99,118 @@ Relevance: Similar to /home in Linux systems, this is where one would store thei
 
 
 
-2.3 Advanced Linux Commands – Detailed Examples and Hands-On Exercise
+## Advanced Linux Commands – Detailed Examples and Hands-On Exercise
 This section covers advanced Linux commands with a focus on text processing, which is very useful in computational physics or data analysis tasks. Let’s explore grep, awk, and sed with examples that could be applied to a physics experiment dataset.
 
-grep – Search for Patterns in Files
+- `grep`—Search for Patterns in Files
 The grep command is used to search for specific patterns of text within files. You can look for keywords, phrases, or numbers that match your query.
 Example:  Let's say we have a physics experiment log in several .txt files and we need to search for lines mentioning the word "voltage" in all .txt files.
 bash
-grep "voltage" *.txt
+`grep "voltage" *.txt`
 
 This command will return every line containing "voltage" across all .txt files in the directory.
 You can also use options like -i to ignore case and -n to show line numbers.
 
-Hands-On Example:
+**Hands-On Example:**
 
-Let’s assume we have a file experiment1.txt that contains:
+Let’s assume we have a file `experiment1.txt` that contains:
 
 
+```
 time: 12:00	voltage: 2.5V
 time: 12:30	current: 0.5A
 time: 01:00	voltage: 2.7V
+```
+To search for all lines mentioning `voltage`, you would use:
 
-To search for all lines mentioning "voltage", you would use:
+`grep "voltage" experiment1.txt`
 
-bash
-grep "voltage" experiment1.txt
-
-Output:
-time: 12:00	voltage: 2.5V
+**Output:**
+```time: 12:00	voltage: 2.5V
 time: 01:00	voltage: 2.7V
-
-awk – Process and Analyze Text Data
+```
+- `awk`–Process and Analyze Text Data
 The awk command is a powerful text processing tool that can extract and analyse columns of data in files. It is especially useful when working with structured data like CSVs or space-separated values. 
-Example: If you have a file where columns represent time, voltage, and current, and you want to extract just the time from experiment1.txt:
-	bash
-awk '{print $1}' experiment1.txt
+Example: If you have a file where columns represent time, voltage, and current, and you want to extract just the time from `experiment1.txt`:
+`awk '{print $1}' experiment1.txt`
 This command will print the first column, which is time in this case.
 	
-	Hands-On Example:
-Given the same experiment1.txt file:
+**Hands-On Example:**
+Given the same `experiment1.txt` file:
+```
 time: 12:00	voltage: 2.5V
 time: 12:30	current: 0.5A
 time: 01:00	voltage: 2.7V
+```
 If you want to extract the voltage values (which are in the third column):
-awk '{print $3}' experiment1.txt
-Output:
+`awk '{print $3}' experiment1.txt`
+**Output:**
+```
 2.5V
 0.5A
 2.7V
-You can also perform arithmetic operations in awk. For example, if the voltage values are in a file and 
-you want to calculate their sum, you can use:
-awk '{sum += $3} END {print sum}' experiment1.txt
-sed – Stream Edit Text Files
-The sed command is used to find and replace text in a file or stream. It's often used to perform batch editing, such as changing variable names or updating experiment data.
-Example:  If you want to replace the word "voltage" with "potential" in experiment1.txt, you can use:
-bash
-sed 's/voltage/potential/g' experiment1.txt > updated_experiment1.txt
-s/oldtext/newtext/g: This command replaces all occurrences of oldtext with newtext.
-The result will be saved in a new file updated_experiment1.txt.
-Hands-On Example:
-For the same experiment1.txt file:
-	time: 12:00	voltage: 2.5V
+```
+You can also perform arithmetic operations in awk. For example, if the voltage values are in a file and you want to calculate their sum, you can use:
+`awk '{sum += $3} END {print sum}' experiment1.txt`
+- `sed`– Stream Edit Text Files
+The `sed` command is used to find and replace text in a file or stream. It's often used to perform batch editing, such as changing variable names or updating experiment data.
+Example:  If you want to replace the word "voltage" with "potential" in `experiment1.txt`, you can use:
+
+`sed 's/voltage/potential/g' experiment1.txt > updated_experiment1.txt`
+`s/oldtext/newtext/g:` This command replaces all occurrences of oldtext with newtext.
+The result will be saved in a new file `updated_experiment1.txt`.
+**Hands-On Example:**
+For the same `experiment1.txt` file:
+```
+time: 12:00	voltage: 2.5V
 time: 12:30	current: 0.5A
 time: 01:00	voltage: 2.7V
-
-            If you want to replace all instances of "voltage" with "potential", you can run:
-            sed 's/voltage/potential/g' experiment1.txt
-            Output:
-	time: 12:00	potential: 2.5V
+```
+If you want to replace all instances of `voltage` with `potential`, you can run:
+`sed 's/voltage/potential/g' experiment1.txt`
+*Output:*
+```
+time: 12:00	potential: 2.5V
 time: 12:30	current: 0.5A
 time: 01:00	potential: 2.7V
-
-
-Hands-On Exercise: Analyzing Physics Experiment Data
+```
+**Hands-On Exercise: Analyzing Physics Experiment Data**
 Let’s walk through a complete exercise where you use grep, awk, and sed to manipulate and analyze data from a simple physics experiment.
-Step 1: Create a Sample Data File
-Create a file named experiment_data.txt with the following data:
+- **Step 1:** Create a Sample Data File
+Create a file named `experiment_data.txt` with the following data:
+```
 time: 10:00	voltage: 3.1V	current: 1.2A
 time: 10:30	voltage: 3.0V	current: 1.1A
 time: 11:00	voltage: 2.9V	current: 1.0A
 time: 11:30	voltage: 3.2V	current: 1.3A
 time: 12:00	voltage: 3.0V	current: 1.2A
-Step 2: Use grep to Find Specific Terms
-Suppose you want to find all the readings taken at 10:30. Use:
-	
-grep "10:30" experiment_data.txt
-Step 3: Use awk to Extract Columns of Data
+```
+- **Step 2:** Use grep to Find Specific Terms
+Suppose you want to find all the readings taken at `10:30`. Use:
+`grep "10:30" experiment_data.txt`
+- **Step 3:** Use `awk` to Extract Columns of Data
 Now, extract only the voltage values from this file:
-	awk '{print $3}' experiment_data.txt
-
-            This will return the list of voltages.
-	Step 4: Use sed to Modify Data
+`awk '{print $3}' experiment_data.txt`
+This will return the list of voltages.
+- **Step 4:** Use `sed` to Modify Data
 Let’s assume you’ve realised the voltage readings are in millivolts (mV) instead of volts (V), and you want to modify this in the data. You can replace V with mV like this:
-sed 's/V/mV/g' experiment_data.txt > updated_experiment_data.txt
+`sed s/V/mV/g experiment_data.txt > updated_experiment_data.txt`
 
 If you want to convert the entire data points rather than just changing the unit label, you’ll need to perform a calculation in addition to modifying the unit label. For instance, if you want to convert voltage readings from millivolts (mV) to volts (V), you'll need to divide each value by 1000.
-Here’s how you can do it using awk instead of sed, since sed is not designed for mathematical operations. Suppose your data is formatted as:
+Here’s how you can do it using `awk` instead of `sed`, since sed is not designed for mathematical operations. Suppose your data is formatted as:
+```
 time voltage
 0	500
 1	1500
 2	2500
-
+```
 And you want to convert the voltage from mV to V.
-Using awk for Calculation and Unit Conversion:
-awk '{if (NR == 1) {print $1, "voltage(V)"} else {print $1, $2/1000}}' experiment_data.txt > updated_experiment_data.txt
-NR == 1 handles the header row, printing "voltage(V)".
+Using `awk` for Calculation and Unit Conversion:
+`awk '{if (NR == 1) {print $1, "voltage(V)"} else {print $1, $2/1000}}' 
+experiment_data.txt > updated_experiment_data.txt`
+`NR == 1` handles the header row, printing "voltage(V)".
 For other rows, it divides the voltage value by 1000.
 Combining the Unit Conversion with sed for Label Replacement:
 If you also need to replace the unit label in the header or data file, do it in two steps:
-awk '{if (NR == 1) {print $1, "voltage(V)"} else {print $1, $2/1000}}' experiment_data.txt | sed 's/V/mV/g' > updated_experiment_data.txt
-This command combines awk to perform the calculation and sed to replace the unit labels if needed.
+`awk '{if (NR == 1) {print $1, "voltage(V)"} else {print $1, $2/1000}}' experiment_data.txt | sed 's/V/mV/g' > updated_experiment_data.txt`
+This command combines `awk` to perform the calculation and sed to replace the unit labels if needed.
