@@ -1,3 +1,6 @@
+## Learning Goal:
+The goal of this section is to build a foundational understanding of basic Linux commands, especially in file navigation, file management, and understanding the Linux filesystem structure. Learners will also be introduced to text processing using commands like grep, awk, and sed, which are particularly useful in scientific and computational tasks.
+
 ## Basic Commands Practice:
 
 1. Navigation: Use `ls, cd, pwd, mkdir, rmdir` to navigate and manage directories.
