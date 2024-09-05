@@ -43,8 +43,11 @@ Change the permissions of a file so that only the owner can write to it, and ver
 ## Linux File System
 
 
+<figure style="text-align: right;">
+  <img src="./linux_file.png" alt="Flowchart of the Computational Process" width="50%" />
+  <figcaption style="text-align: center;">Fig.1: The top levels of a typical Linux filesystem</figcaption>
+</figure>
 
-      Fig.1 : The top levels of a typical Linux filesystem
 
 
 **Key File Structure and Roles**
